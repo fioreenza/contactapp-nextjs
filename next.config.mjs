@@ -1,4 +1,12 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {};
+// next.config.mjs
 
-export default nextConfig;
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+    env: {
+      BASE_URL: process.env.BASE_URL,
+      BEARER_TOKEN: process.env.BEARER_TOKEN,
+    },
+  };
+  
+  export default nextConfig;
+  
