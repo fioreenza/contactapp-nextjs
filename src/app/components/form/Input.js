@@ -6,7 +6,7 @@ export default function Input ({ type, name, placeholder }) {
   const inputRef = React.useRef(null);
     return (
         <input
-          className="main_container_input"
+          className="pt-4 px-3 pb-3 border-solid border-[#cccccccc] border-[1px] rounded-md focus:outline-none focus:border-solid focus:border-[1px] focus:border-[#0056b3]"
           name={name}
           type={type}
           ref={inputRef}
@@ -14,3 +14,4 @@ export default function Input ({ type, name, placeholder }) {
         />
     );
 }
+

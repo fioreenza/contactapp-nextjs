@@ -4,8 +4,8 @@ import ContactList from "./container/ContactList.js";
 export default function Home() {
   return (
     <>
-  <main className="main_container">
-    <h1 className="main_container_heading">Contact Apps</h1>
+  <main className="bg-[#ffff] p-6 max-w-[800px] m-auto rounded-xl shadow-lg">
+    <h1 className="text-center text-5xl font-bold">Contact Apps</h1>
     <ContactInput/>
     <ContactList/>
   </main>

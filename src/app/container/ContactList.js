@@ -31,8 +31,8 @@ export default function ContactList () {
     };
 
     return (
-        <section className="contact_list">
-        <h2 className="main_container_subheading2">Contact List</h2>
+        <section className="mt-6 w-full flex flex-col">
+        <h2 className="text-2xl mb-0 font-bold">Contact List</h2>
         <div id="contactList">
         {contacts.map((contact) => (
             <ContactItem key={contact.id} name={contact.name} email={contact.email} imgUrl={contact.img_url}/>
